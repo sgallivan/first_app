@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-# gem 'sqlite3'
+ gem 'sqlite3'
 # 2013-07-09 use sqlite3 in development
-group :development do
-	gem 'sqlite3', '1.3.7'
-end
+#group :development do
+#	gem 'sqlite3', '1.3.7'
+#end
 
 
 # Use SCSS for stylesheets
