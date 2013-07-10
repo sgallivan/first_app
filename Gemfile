@@ -10,6 +10,10 @@ group :development do
 	gem 'sqlite3', '1.3.7'
 end
 
+# production db
+group :production do
+	gem 'pg'
+end
 
 # Use SCSS for stylesheets
 
